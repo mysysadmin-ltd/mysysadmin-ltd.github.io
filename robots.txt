@@ -1,0 +1,9 @@
+Sitemap: http://www.mysysadmin.co.uk/sitemap.xml
+User-agent: *
+Disallow: http://www.mysysadmin.co.uk/contrib/
+Disallow: http://www.mysysadmin.co.uk/doc/
+Disallow: http://www.mysysadmin.co.uk/lib/
+Disallow: http://www.mysysadmin.co.uk/modules/
+Disallow: http://www.mysysadmin.co.uk/plugins/
+Disallow: http://www.mysysadmin.co.uk/scripts/
+Disallow: http://www.mysysadmin.co.uk/tmp/

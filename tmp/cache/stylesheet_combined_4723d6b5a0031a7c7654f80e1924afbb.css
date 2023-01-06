@@ -1,0 +1,172 @@
+/* Sample FormBuilder CSS base */
+form {margin-top:0;}
+form, td, th, li { font-size: 100%;}
+form div {margin-bottom:0;}
+fieldset div {
+	margin-bottom:0.5em;
+	margin-left:1em;
+}
+fieldset div div {
+	margin-top:0.5em;
+	margin-left:1em;
+}
+fieldset {
+	margin-bottom:1em;
+	border:none;
+	padding:0.5em;
+        width: 70%;
+}
+fieldset label {
+	width:auto;
+}
+legend {
+	color:#FFF;
+	background:#F60;
+	font-style:italic;
+	font-size:1.2em;
+	margin-bottom:0.5em;
+	padding:0.2em;
+	width:auto;
+	border:1px solid #CCC;
+}
+textarea {
+	margin: 0.5em 0;
+	width: 50%;
+	height: 6em;
+}
+
+/* Apply this class to text/select input fields with shorter labels
+	to help alignment */
+.short-label label {float:left; width:10em;}
+.short-label fieldset div input,
+.short-label fieldset div select {width:16em;}
+
+/* Pretty up your Captcha image output */
+.captcha {
+	margin:0.5em 0;
+	width:200px;
+	text-align:center;
+}
+.captcha img {border:1px solid; margin-bottom:0.5em;}
+.captcha input {width:196px; margin-top:0.5em;}
+
+/* Just a bit more room for the Submit button */
+.submit {margin-top:0.5em;}
+
+.contactform input {border: 1px solid;}
+.contactform input.checkbox {border: none;}
+.contactform label {
+	display: block;
+	float: left;
+	width: 300px;
+}
+.contactform label.label {
+	display: inline;
+	float: none;
+	width: 10px;
+	font-size: 10px;
+}
+.contactform textarea {
+	/*background-color: #ffc;*/
+        float: left;
+	border: 1px solid;
+}
+.formbuilderform .message {
+	line-height: 16px;
+	padding: 0 0 8px 0;
+}
+/* Stylesheet: FormBuilder Default Style Modified On 2011-11-09 22:25:52 */
+/* BLOG
+=============================== */
+#blog {
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	}
+
+#blogSidebar {
+	width: 80px;
+	margin: 0px 0;
+	float: right;
+	}
+.blogEntry { }
+.blogData {
+	font-size: 10px;
+	color: #838383;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	}
+.blogSummary { }
+.blogContent { }
+.blogExtra { }
+.blogFields { }
+.blogMore { }
+#blogDetail { }
+#blogDetailContent { }
+ul#comments { }
+.comment { margin: 15px; }
+.commentTitle { font-size: 16px; }
+.commentData {
+	font-size: 10px;
+	color: #838383;
+	text-transform: uppercase;
+	}
+.commentAuthor { font-size: 12px; }
+.commentDetails { font-size: 12px; }
+
+/* FEEDBACK FORM
+=============================== */
+form {
+	margin: 0;
+	padding: 0;
+	}
+
+input, select, textarea {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	}
+
+.form { margin: 0 0 15px 0; }
+
+.form th {
+	text-align: left;
+	border-bottom: 1px dashed #e4e4e4;
+	padding: 10px;
+	font-size: 12px;
+	}
+.form td {
+	border-bottom: 1px dashed #e4e4e4;
+	padding: 10px;
+	font-size: 12px;
+	}
+
+.submit td {
+	background: #f2f2f2;
+	text-align: right;
+	border-bottom: none !important;
+	}
+
+td.indent { padding-left: 20px; }
+.captchapict { margin-bottom: 5px; }
+.error {
+	background: #fbf4e1;
+	border: 2px solid #e7ab0b;
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 12px;
+	width: 550px;
+	}
+
+/* MISCELLANOUS
+=============================== */
+hr {
+	border: 0;
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	margin: 25px 0;
+	}
+/* Stylesheet: Blog Modified On 2011-11-11 19:24:02 */
